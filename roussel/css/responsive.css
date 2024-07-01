@@ -1,0 +1,417 @@
+@media (max-width: 800px)
+{
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #326273;
+    overflow-X: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0 auto;
+    background-color:#326273;
+    width: 100%;
+}
+
+header {
+    background-color: #326273;
+    color: white;
+/*     position: fixed;
+    width: 100%;
+    z-index: 20; */
+    border-bottom: 2px solid white;
+    max-height: 170px;
+}
+
+.container {
+    width: auto;
+    overflow-x: hidden;
+}
+
+.header-title {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 600;
+}
+
+.subtitle-header {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 600;
+}
+
+.menu__item {
+    display: inline-block;
+    margin: 0 1.7rem;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+}
+
+.menu__item:hover{
+    font-weight: bold;
+}
+
+.animation-background {
+    color: white;
+    background-image: url(../assets/page-marble.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60%;
+    height: 600px;
+}
+
+.animation-h1 {
+    font-size: 2rem;
+    padding-top: 15rem;
+    padding-bottom: 1rem;
+}
+
+.animation-type {
+    font-size: 1rem;
+    padding-bottom: 18rem;
+}
+
+.container p span.cursor {
+    display: inline-block;
+    background-color: white;
+    margin-left: 0.1rem;
+    width: 3px;
+    color: #326273;
+    background-color: #326273;
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+    }
+
+    @-moz-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @-webkit-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+.qui-suis-je {
+    border-top: 2px solid white;
+    padding-bottom: 2rem;
+    color: white;
+    text-align: center;
+    background-color: #5c9ead;
+    line-height: 1.5rem;
+}
+
+.title-qui-suis-je {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    padding-bottom: 1.5rem;
+}
+
+.paragraphe-qui-suis-je {
+    text-align: justify;
+    margin: 0 1.5rem;
+    font-size: 1.1rem;
+}
+
+.paragraphe-qui-suis-je::first-letter {
+    font-size: 1.5rem;
+}
+
+.palais-justice {
+    width: 93%;
+    height: 250px;
+    background-image: url(../assets/palais-justice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 35%;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.domaines {
+    border-top: 2px solid white;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.place-massena-nuit {
+    width: 93%;
+    height: 250px;
+    background-image: url(../assets/place-massena-nuit.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 40%;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.ma-formation {
+    border-top: 2px solid white;
+    padding-bottom: 2rem;
+    color: white;
+    text-align: center;
+    background-color: #5c9ead;
+    min-height: 900px;
+}
+
+.title-ma-formation {
+    margin: 0 auto;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.global-formation{
+    margin-top: 1rem;
+}
+
+.liste-ma-formation {
+    text-align: left;
+    margin: 1rem 3rem;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.liste-ma-formation::first-letter {
+    font-size: 1.5rem;
+}
+
+.lucile-formation {
+    background-image: url(../assets/IMG_2138.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 80%;
+    width: 93%;
+    height: 56vh;
+    float: none;
+    border: 2px solid white;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.honoraires {
+    border-top: 2px solid white;
+    padding-bottom: 2rem;
+    color: white;
+    text-align: center;
+    min-height: 600px;
+}
+
+.title-honoraires {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.paragraphe-honoraires {
+    text-align: justify;
+    margin: 0 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.paragraphe-honoraires::first-letter {
+    font-size: 1.5rem;
+}
+
+.aside-honoraires {
+    background-image: url(../assets/nice-clocher.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    width: 93%;
+    float: none;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-bottom: 0.5rem;
+}
+
+.title-contact {
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+.contact {
+    border-top: 2px solid white;
+    background-color: #5c9ead;
+    color: white;
+    min-height: 800px;
+    display: flex;
+    width: 100%;
+}
+
+.left-part {
+    width: 50%;
+}
+
+.right-part {
+    width: 50%;
+}
+
+.paragraphe-contact {
+    text-align: justify;
+    margin: 0 3rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.contacts-tel {
+    text-align: justify;
+    margin: 0 3rem;
+    padding-top: 4rem;
+    font-size: 1.2rem;
+}
+
+.aside-contact {
+    background-image: linear-gradient(to left, transparent, #5c9ead), url(../assets/IMG_2042.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+    width: 100%;
+    height: 100%;
+}
+
+.bouton-valider {
+    border-radius: 10px;
+    background-color: #326273;
+    color: white;
+    font-size: 1rem;
+    width: 60%;
+    margin-right: 3rem;
+    float: right;
+    margin-top: 1rem;
+}
+
+.emailarea {
+    float: right;
+    width: 60%;
+    margin-right: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    background-color: #93b7be;
+    color: white;
+    padding-left: 0.5rem;
+}
+
+.textarea {
+    float: right;
+    width: 60%;
+    margin-right: 3rem;
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    background-color: #93b7be;
+    color: white;
+    padding-left: 0.5rem;
+}
+
+input[type="submit"]{
+    cursor:pointer;
+   }
+
+::placeholder {
+    color: white;
+}
+
+.map {
+    margin-top: 2rem;
+    margin-right: 3rem;
+    border-radius: 10px;
+    float: right;
+    width: 60%;
+    height: 300px;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background-color: #326273;
+    color: white;
+/*     position: fixed;
+    width: 100%;
+    z-index: 20; */
+    border-top: 2px solid white;
+    height: 150px;
+    text-align: center;
+}
+
+.paragraphe-footer {
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.lien-footer{
+    margin-left: 1.5rem;
+}
+
+.lien-footer-nom:hover{
+    font-weight: bold;
+}
+
+.lien-footer:hover {
+    font-weight: bold;
+}
+
+.ordre-avocat {
+    height: 30px;
+    float: right;
+    margin-right: 3rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.ordre-avocat-hautecoeur {
+    height: 30px;
+    float: right;
+    margin-right: 3rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.typed-text-mail {
+    margin-left: 1rem;
+    color: #326273;
+}
+
+.animation-type-mail {
+    padding-top: 18rem;
+}
+
+}

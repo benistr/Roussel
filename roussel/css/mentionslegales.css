@@ -1,0 +1,26 @@
+.container {
+    background-color: #5c9ead;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-mentionslegales {
+    margin: 3rem 3rem 3rem 3rem;
+    color: white;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.title-mentionslegales {
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.liens:hover {
+    font-weight: bold;
+}
